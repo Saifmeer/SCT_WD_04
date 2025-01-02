@@ -1,0 +1,74 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html{
+    font-size: 10px;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+#main h1{
+    font-size: 4rem;
+margin-bottom: 3rem;
+font-weight: 550;
+}
+
+.input{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    color: black;
+    outline: none;
+    border: 2px solid #212121;
+    width: 40vw;
+   border-right: none; 
+}
+
+.add{
+    background-color: greenyellow;
+    padding: 12px 20px;
+    font-weight: 600;
+     border-left: none; 
+    
+}
+.todo{
+    display: flex;
+}
+
+.message{
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #dadada;
+    font-weight: 600;
+    width: 44vw;
+    display: flex;
+    justify-content: space-between;
+}
+.message button{
+    background-color: rgb(250, 77, 77);
+    color: #000;
+    margin-left: 50px;
+    padding: 4px 10px;
+    font-weight: 600;
+border: 1px solid #000;
+font-weight: 550;
+}
+.completed{
+    background-color: rgba(173, 247, 64, 0.484);
+   text-decoration: line-through;
+}
